@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'grafhouse.png',
+    title: 'Grafhouse',
+    info: 'Grafhouse is a social networking app about graffiti collaboration. Built with React Native. Used Firebase for the backend.',
+    info2: 'Grafhouseは落書きのコラボレーションをテーマとしたSNSアプリです。React Native製です。バックエンドにはFirebaseを利用しました。',
+    url: 'https://grafhouse.ml/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'kenmoreader.png',
     title: 'kenmo reader',
     info: 'The simple style news reader app on Android and iOS. You can browse various news and matome sites without ads. You can browse in a simpler and more unified format. Rendering in native view, not web view, provides a comfortable browsing experience.',
