@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'pinepro.png',
+    title: 'PINE pro',
+    info: 'PINE pro is a messenger app for iOS and Android. I built this app with React Native and Expo. The backend is Firebase Authentication, Firestore, Storage, Cloud Functions, Hosting.',
+    info2: 'PINE proはiOS/Android用メッセンジャーアプリです。React Native + Expoです。バックエンドにはFirebase(Authentication, Firestore, Storage, Cloud Functions, Hosting)を使用しています。',
+    url: 'https://pinepro.ml',
+    repo: 'https://github.com/kiyohken2000/kenmochat', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'grafhouse.png',
     title: 'Grafhouse',
     info: 'Grafhouse is a social networking app about graffiti collaboration. Built with React Native. Used Firebase for the backend.',
