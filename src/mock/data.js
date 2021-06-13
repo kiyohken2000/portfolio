@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'reactnative-expo-firebase-boilerplate.jpg',
+    title: 'React Native Expo with Firebase',
+    info: 'React Narive Expo boilerplate. It uses Firebase for the backend, and supports account creation, image upload, get and save push notifications token, and dark theme.',
+    info2: 'Firebase用のReact Native Expoのボイラープレートです。アカウントの作成とユーザー情報の更新、画像のアップロード、プッシュ通知トークンの取得と保存、ダークモードをサポートしています。',
+    url: 'https://github.com/kiyohken2000/reactnative-expo-firebase-boilerplate',
+    repo: 'https://github.com/kiyohken2000/reactnative-expo-firebase-boilerplate', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'fgo.png',
     title: 'Find Good One',
     info: 'Find Good One is a treasure hunt app that uses background location and geofences. The app was built with React Native, Expo, and Firebase.',
