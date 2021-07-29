@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'react-native-expo-firebase.png',
+    title: 'React Native Expo Firebase',
+    info: 'This is a demo of using Firestore realtime listener to rewrite the app color scheme and drawer menu in real time from the browser.',
+    info2: 'Firestore realtime listenerを使って、アプリの配色やドロワーメニューをリアルタイムにブラウザ上から書き換えるデモです。',
+    url: 'https://youtu.be/WTE3YHfLE9g',
+    repo: 'https://github.com/kiyohken2000/react-native-expo-firebase', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'reactnative-expo-firebase-boilerplate.jpg',
     title: 'React Native Expo with Firebase',
     info: 'React Narive Expo boilerplate. It uses Firebase for the backend, and supports account creation, image upload, get and save push notifications token, and dark theme.',
