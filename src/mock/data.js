@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'React Native Expo Firebase',
     info: 'This is a demo of using Firestore realtime listener to rewrite the app color scheme and drawer menu in real time from the browser.',
     info2: 'Firestore realtime listenerを使って、アプリの配色やドロワーメニューをリアルタイムにブラウザ上から書き換えるデモです。',
-    url: 'https://youtu.be/Hsd_55z4YvM',
+    url: 'https://youtu.be/OpHKSqBw3Fo',
     repo: 'https://github.com/kiyohken2000/react-native-expo-firebase', // if no repo, the button will not show up
   },
   {
