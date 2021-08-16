@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'ocacatalk.jpg',
+    title: 'Ocacatalk',
+    info: 'Ocacatalk is a video streaming social networking app. Build with Expo Application Services (EAS). A backend for the video chat is AgoraIO.',
+    info2: 'Ocacatalkは動画配信SNSアプリです。Expo EAS Buildを使用しました。ビデオチャットのバックエンドはAgoraIOです。',
+    url: 'https://ocacatalk.ml',
+    repo: 'https://github.com/kiyohken2000/kenmohouse', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'react-native-expo-firebase.png',
     title: 'React Native Expo Firebase',
     info: 'This is a demo of using Firestore realtime listener to rewrite the app color scheme and drawer menu in real time from the browser.',
