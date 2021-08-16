@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'Ocacatalk is a video streaming social networking app. Build with Expo Application Services (EAS). A backend for the video chat is AgoraIO.',
     info2: 'Ocacatalkは動画配信SNSアプリです。Expo EAS Buildを使用しました。ビデオチャットのバックエンドはAgoraIOです。',
     url: 'https://ocacatalk.ml',
-    repo: 'https://github.com/kiyohken2000/kenmohouse', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
