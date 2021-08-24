@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'design-demo.png',
+    title: 'design-demo',
+    info: 'This is a sample photo editing application using the PhotoEditorSDK provided by img.ly. I used EAS build for this library because it uses native code.',
+    info2: 'img.lyの提供するPhotoEditorSDKを使用した画像編集アプリのサンプルです。ネイティブコードを使用するSDKのためEAS buildを使用しました。',
+    url: 'https://youtu.be/vfAbrMrfoxQ',
+    repo: 'https://github.com/kiyohken2000/design-demo', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ocacatalk.jpg',
     title: 'Ocacatalk',
     info: 'Ocacatalk is a video streaming social networking app. Build with Expo Application Services (EAS). A backend for the video chat is AgoraIO.',
