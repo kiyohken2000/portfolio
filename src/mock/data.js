@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'abeshinzoexplorer.png',
+    title: '安倍晋三エクスプローラー',
+    info: 'This application is for viewing Shinzo Abe statements in the Diet. It also supports Text to Speech. Flutter and Firebase were used to build the app.',
+    info2: '安倍晋三の国会での発言を閲覧するためのアプリです。音声での読み上げにも対応しています。彼の発言を閲覧していて疲れたときにはギャラリー画面の美しい画像を見て息抜きできます。FlutterとFirebaseを使用しました。',
+    url: 'https://kiyohken2000.github.io/flutter-practice/ja',
+    repo: 'https://github.com/kiyohken2000/flutter-practice', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'design-demo.png',
     title: 'design-demo',
     info: 'This is a sample photo editing application using the PhotoEditorSDK provided by img.ly. I used EAS build for this library because it uses native code.',
