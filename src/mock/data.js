@@ -77,7 +77,7 @@ export const projectsData = [
     title: 'Find Good One',
     info: 'Find Good One is a treasure hunt app that uses background location and geofences. The app was built with React Native, Expo, and Firebase.',
     info2: 'Find Good Oneはバックグラウンドロケーションとジオフェンスを使用した宝探しアプリです。使用技術はReact NativeとExpo、Firebaseです。',
-    url: 'https://findgoodone.ml',
+    url: 'https://maptrap.web.app',
     repo: 'https://github.com/kiyohken2000/maptrap', // if no repo, the button will not show up
   },
   {
