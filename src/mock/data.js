@@ -86,7 +86,7 @@ export const projectsData = [
     title: 'PINE pro',
     info: 'PINE pro is a messenger app for iOS and Android. I built this app with React Native and Expo. The backend is Firebase Authentication, Firestore, Storage, Cloud Functions, Hosting.',
     info2: 'PINE proはiOS/Android用メッセンジャーアプリです。React Native + Expoです。バックエンドにはFirebase(Authentication, Firestore, Storage, Cloud Functions, Hosting)を使用しています。',
-    url: 'https://pinepro.ml',
+    url: 'https://kenmochat.web.app',
     repo: 'https://github.com/kiyohken2000/kenmochat', // if no repo, the button will not show up
   },
   {
