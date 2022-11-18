@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'heishinsan.png',
+    title: '意味のない質問だよ/Hey 晋さん',
+    info: 'This is an application to talk with Shinzo Abe. When a question is inputted through speech recognition, Shinzo Abe-like answers are generated and Shinzo Abe synthesized voice is played. This app was built with React Native, Cloud Run, Firebase, and Uberduck.',
+    info2: 'AI安倍晋三との会話アプリです。音声認識により質問を入力すると安倍晋三風の回答を生成し安倍晋三の合成音声を再生します。アプリはReact Native、バックエンドはCloud RunとFirebaseを、合成音声の作成にはUberduck使用しました。',
+    url: 'https://youtu.be/BdToa3l6goA',
+    repo: 'https://github.com/kiyohken2000/hei-shin-san', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'abeshinzoexplorer.png',
     title: '安倍晋三エクスプローラー',
     info: 'This application is for viewing Shinzo Abe statements in the Diet. It also supports Text to Speech. Flutter and Firebase were used to build the app.',
