@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'abe-talk.png',
+    title: 'Abe Talk',
+    info: `This is a web application that reads out Kenmou-ita thread titles in Shinzo Abe's voice. The frontend of this app is Next.js. The backend is Firebase and GCP Cloud Run. Voice synthesis is by Uberduck.`,
+    info2: '嫌儲のスレタイを安倍晋三声で読み上げるウェブアプリです。フロントエンドにはNext.jsを、バックエンドにはFirebaseとGCP Cloud Runを、合成音声にはUberduckを使用しました。',
+    url: 'https://abe-talk.vercel.app',
+    repo: 'https://github.com/kiyohken2000/abe-talk', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'heishinsan.png',
     title: '意味のない質問だよ/Hey 晋さん',
     info: 'This is an application to talk with Shinzo Abe. When a question is inputted through speech recognition, Shinzo Abe-like answers are generated and Shinzo Abe synthesized voice is played. This app was built with React Native, Cloud Run, Firebase, and Uberduck.',
