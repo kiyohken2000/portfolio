@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'mygpt.png',
+    title: 'ガチ有能AI助手',
+    info: 'This is an AI chat app using Google Gemini.',
+    info2: 'GoogleのGeminiを使用したAIチャットアプリです。YouTubeシリーズ「PC自作から始めるスマホアプリ開発」でネタにするために開発しました。YouTubeシリーズではこのアプリの制作過程をパソコン組み立てるところから解説しています。',
+    url: 'https://youtu.be/iy0pnJewmho',
+    repo: 'https://github.com/kiyohken2000/my-gpt', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'abe-talk.png',
     title: 'Abe Talk',
     info: `This is a web application that reads out Kenmou-ita thread titles in Shinzo Abe's voice. The frontend of this app is Next.js. The backend is Firebase and GCP Cloud Run. Voice synthesis is by Uberduck.`,
