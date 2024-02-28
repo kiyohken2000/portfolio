@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'hinpyoukai.png',
+    title: '品評会画像メーカー',
+    info: 'The 品評会画像メーカー numbers the faces of the people in the picture. The backend for this app is GCP Cloud Run and Python. The web front end is React and the mobile app is React Native.',
+    info2: '写っている人物の顔に番号をつけるアプリです。バックエンドはGCP Cloud RunとPython、ウェブフロントエンドはReact、モバイルアプリはReact Nativeを使用しました。',
+    url: 'https://hinpyoukai.com',
+    repo: 'https://github.com/kiyohken2000/hinpyoukai-mobile', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'mygpt.png',
     title: 'ガチ有能AI助手',
     info: 'This is an AI chat app using Google Gemini.',
