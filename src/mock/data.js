@@ -86,7 +86,7 @@ export const projectsData = [
     title: 'Ocacatalk',
     info: 'Ocacatalk is a video streaming social networking app. Build with Expo Application Services (EAS). A backend for the video chat is AgoraIO.',
     info2: 'Ocacatalkは動画配信SNSアプリです。Expo EAS Buildを使用しました。ビデオチャットのバックエンドはAgoraIOです。',
-    url: 'https://ocacatalk.ml',
+    url: 'https://kenmohouse.web.app',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -131,7 +131,7 @@ export const projectsData = [
     title: 'Grafhouse',
     info: 'Grafhouse is a social networking app about graffiti collaboration. Built with React Native. Used Firebase for the backend.',
     info2: 'Grafhouseは落書きのコラボレーションをテーマとしたSNSアプリです。React Native製です。バックエンドにはFirebaseを利用しました。',
-    url: 'https://grafhouse.ml/',
+    url: 'https://sketch-share-canvas.web.app',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -140,7 +140,7 @@ export const projectsData = [
     title: 'kenmo reader',
     info: 'The simple style news reader app on Android and iOS. You can browse various news and matome sites without ads. You can browse in a simpler and more unified format. Rendering in native view, not web view, provides a comfortable browsing experience.',
     info2: 'シンプルスタイルニュースリーダーアプリです。様々なニュースやまとめサイトを、広告を排除したシンプルかつ統一されたフォーマットで閲覧することができます。ウェブビューではなくネイティブビューでレンダリングしているため、快適なブラウジング体験を実現しました。',
-    url: 'https://kenmo-reader.ml/',
+    url: 'https://kenmo-reader.web.app/',
     repo: 'https://github.com/kiyohken2000/kenmo-reader', // if no repo, the button will not show up
   }
 ];
@@ -163,12 +163,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/聡明-白倉-9627a01bb/',
+      url: 'https://www.linkedin.com/in/shirakura/',
     },
     {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/kiyohken2000',
+    },
+    {
+      id: nanoid(),
+      name: 'rss',
+      url: 'https://capsaicin.site',
     },
   ],
 };
