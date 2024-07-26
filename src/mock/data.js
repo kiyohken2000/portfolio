@@ -175,6 +175,11 @@ export const footerData = {
       name: 'rss',
       url: 'https://capsaicin.site',
     },
+    {
+      id: nanoid(),
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCCuOntyeQpeNrkg6htM0JgA',
+    },
   ],
 };
 
