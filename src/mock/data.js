@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'polymorph.png',
+    title: 'PolyMorph',
+    info: 'PolyMorph is a visual, interactive app that lets you freely rotate and morph colorful 3D polyhedra. You can instantly change their shapes using sliders and explore them from any angle by dragging with your finger.',
+    info2: 'PolyMorphはカラフルな3D多面体を自由に回転させ・変形させて遊べるビジュアル体験型アプリです。スライダーを使って多面体の形状を瞬時に変えられ、指でドラッグして360度眺めることができます。',
+    url: 'https://kiyohken2000.github.io/PolyMorph/ja',
+    repo: 'https://github.com/kiyohken2000/PolyMorph', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'hinpyoukai.png',
     title: '品評会画像メーカー',
     info: 'The 品評会画像メーカー numbers the faces of the people in the picture. The backend for this app is GCP Cloud Run and Python. The web front end is React and the mobile app is React Native.',
