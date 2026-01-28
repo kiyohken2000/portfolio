@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'feedown.png',
+    title: 'FeedOwn',
+    info: 'FeedOwn is a self-hosted RSS reader that runs entirely on free tiers of Cloudflare and Supabase at $0/month. It supports Web, iOS, and Android with features like reader mode, dark mode, OPML import/export, favorites, and QR code login.',
+    info2: 'FeedOwnはCloudflareとSupabaseの無料枠で月額0円で動作するセルフホスト型RSSリーダーです。Web・iOS・Androidに対応し、リーダーモード、ダークモード、OPMLインポート/エクスポート、お気に入り、QRコードログインなどの機能を備えています。',
+    url: 'https://feedown.pages.dev',
+    repo: 'https://github.com/kiyohken2000/feedown',
+  },
+  {
+    id: nanoid(),
     img: 'polymorph.png',
     title: 'PolyMorph',
     info: 'PolyMorph is a visual, interactive app that lets you freely rotate and morph colorful 3D polyhedra. You can instantly change their shapes using sliders and explore them from any angle by dragging with your finger.',
