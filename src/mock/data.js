@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'sukikira.png',
+    title: 'スキキラ',
+    info: 'SukiKira is an unofficial browser app for suki-kira.com (好き嫌い.com). It provides a native mobile experience for browsing rankings, voting, commenting, bookmarking, and swipe voting. Built with React Native (Expo) with no backend — all requests go directly to suki-kira.com.',
+    info2: 'スキキラは好き嫌い.com の非公式ブラウザアプリです。ランキング閲覧、投票、コメント投稿、ブックマーク、スワイプ投票などの機能をネイティブアプリで快適に利用できます。React Native (Expo) 製、バックエンドなしで好き嫌い.com に直接リクエストします。',
+    url: 'https://sukikira.pages.dev',
+    repo: 'https://github.com/kiyohken2000/sukikira',
+  },
+  {
+    id: nanoid(),
     img: 'feedown.png',
     title: 'FeedOwn',
     info: 'FeedOwn is a self-hosted RSS reader that runs entirely on free tiers of Cloudflare and Supabase at $0/month. It supports Web, iOS, and Android with features like reader mode, dark mode, OPML import/export, favorites, and QR code login.',
