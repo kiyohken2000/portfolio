@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'throughmyspace.png',
+    title: 'Through My Space',
+    info: 'Through My Space is a visionOS app that lets you experience visual impairments — glaucoma, color blindness, cataracts, retinitis pigmentosa, presbyopia, astigmatism, central scotoma, and floaters — through your own spatial photos on Apple Vision Pro. Built with SwiftUI + RealityKit, featuring ARKit head-tracking overlays and Core Image filters for realistic 60fps simulation.',
+    info2: 'Through My Spaceは、自分の空間写真を使って視覚症状（緑内障による視野狭窄、色覚異常、白内障、網膜色素変性症、老眼、乱視、中心暗点、飛蚊症）をApple Vision Proで体験できるvisionOSアプリです。SwiftUI + RealityKitで構築し、ARKitヘッドトラッキングとCore Imageフィルターにより60fpsのリアルタイムシミュレーションを実現しています。',
+    url: 'https://qiita.com/votepurchase/items/ed0674bfbb9872bfb34d',
+    repo: 'https://github.com/kiyohken2000/ThroughMySpace',
+  },
+  {
+    id: nanoid(),
     img: 'sukikira.png',
     title: 'スキキラ',
     info: 'SukiKira is an unofficial browser app for suki-kira.com (好き嫌い.com). It provides a native mobile experience for browsing rankings, voting, commenting, bookmarking, and swipe voting. Built with React Native (Expo) with no backend — all requests go directly to suki-kira.com.',
