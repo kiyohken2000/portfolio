@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'bakusoku.png',
+    title: 'BakuSoku',
+    info: 'BakuSoku is an unofficial browser app for bakusai.com. It provides an ad-free, fast native experience for browsing regional forums, threads, posting, favorites, read tracking, NG word filtering, and in-thread search. Built with React Native (Expo) with no backend — all requests go directly to bakusai.com.',
+    info2: '爆速は爆サイ.com の非公式ブラウザアプリです。広告なしの快適な環境で地域掲示板の閲覧、スレッド閲覧・投稿、お気に入り、既読管理、NGワードフィルタ、スレ内検索などの機能をネイティブアプリで利用できます。React Native (Expo) 製、バックエンドなしで爆サイ.com に直接リクエストします。',
+    url: 'https://bakusoku.pages.dev',
+    repo: 'https://github.com/kiyohken2000/BakuSoku',
+  },
+  {
+    id: nanoid(),
     img: 'throughmyspace.png',
     title: 'Through My Space',
     info: 'Through My Space is a visionOS app that lets you experience visual impairments — glaucoma, color blindness, cataracts, retinitis pigmentosa, presbyopia, astigmatism, central scotoma, and floaters — through your own spatial photos on Apple Vision Pro. Built with SwiftUI + RealityKit, featuring ARKit head-tracking overlays and Core Image filters for realistic 60fps simulation.',
