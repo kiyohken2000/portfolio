@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'ember.png',
+    title: 'Ember',
+    info: 'Ember is an unofficial desktop browser for 5ch.io. It offers an ad-free, fast native experience with thread browsing, posting, favorites, read tracking, NG word filtering, in-thread search, and dark mode. Built with Tauri v2 (Rust backend + React frontend) for Windows, macOS, and Linux.',
+    info2: 'Emberは5ch専用ブラウザです。快適な環境でスレッド閲覧・投稿、お気に入り、既読管理、NGワードフィルタ、スレ内検索、ダークモードなどの機能を提供します。Tauri v2（Rustバックエンド + Reactフロントエンド）製で、Windows・macOS・Linuxに対応しています。',
+    url: 'https://ember-5ch.pages.dev',
+    repo: 'https://github.com/kiyohken2000/5ch-browser-template',
+  },
+  {
+    id: nanoid(),
     img: 'bakusoku.png',
     title: 'BakuSoku',
     info: 'BakuSoku is an unofficial browser app for bakusai.com. It provides an ad-free, fast native experience for browsing regional forums, threads, posting, favorites, read tracking, NG word filtering, and in-thread search. Built with React Native (Expo) with no backend — all requests go directly to bakusai.com.',
