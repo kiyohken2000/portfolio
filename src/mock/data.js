@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'priveat.png',
+    title: 'Priveat',
+    info: 'Priveat is a privacy-first, offline-capable food and weight tracking app powered by on-device local AI. Meal records never leave the phone. LLM/VLM handles only language understanding and coaching, while numbers come from OCR (ML Kit) and the official Japanese Standard Tables of Food Composition — the LLM never invents nutrition values. Built with React Native (Expo) + react-native-executorch / llama.rn, with HealthKit / Health Connect integration.',
+    info2: 'Priveatはスマホ単体（オンデバイス）で動くローカルAIを活用した、プライバシー重視・オフライン対応の食事／体重管理アプリです。食事記録は端末の外に出ません。LLM/VLMは言葉の理解とコーチングだけを担い、カロリーや栄養素はOCR（ML Kit）と文部科学省「日本食品標準成分表（八訂）増補2023年」から取得し、LLMには数値を発明させません。React Native (Expo) + react-native-executorch / llama.rn 製、HealthKit / Health Connect 連携対応。',
+    url: 'https://priveat.pages.dev',
+    repo: 'https://github.com/kiyohken2000/priveat',
+  },
+  {
+    id: nanoid(),
     img: 'ember.png',
     title: 'Ember',
     info: 'Ember is an unofficial desktop browser for 5ch.io. It offers an ad-free, fast native experience with thread browsing, posting, favorites, read tracking, NG word filtering, in-thread search, and dark mode. Built with Tauri v2 (Rust backend + React frontend) for Windows, macOS, and Linux.',
