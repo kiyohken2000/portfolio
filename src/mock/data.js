@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'channelist.png',
+    title: 'channelist',
+    info: 'channelist lets you export your YouTube subscriptions as Text/CSV/Markdown/JSON/OPML and share them as an image. It fetches your public subscriptions by handle or channel URL — nothing is stored on the server. Built with Vite + React + TypeScript on Cloudflare Pages, with Canvas-based image generation offering list, icon-grid, and card-grid layouts.',
+    info2: 'channelist はYouTubeの登録チャンネル一覧をテキスト/CSV/Markdown/JSON/OPMLで書き出し、画像でシェアできるアプリです。ハンドルまたはチャンネルURLから公開中の登録チャンネルを取得し、データはサーバーに保存しません。Vite + React + TypeScript 製で Cloudflare Pages 上で動作し、Canvas による画像生成でリスト・アイコン格子・カード格子のレイアウトに対応しています。',
+    url: 'https://channelist.pages.dev',
+    repo: 'https://github.com/kiyohken2000/channelist',
+  },
+  {
+    id: nanoid(),
     img: 'priveat.png',
     title: 'Priveat',
     info: 'Priveat is a privacy-first, offline-capable food and weight tracking app powered by on-device local AI. Meal records never leave the phone. LLM/VLM handles only language understanding and coaching, while numbers come from OCR (ML Kit) and the official Japanese Standard Tables of Food Composition — the LLM never invents nutrition values. Built with React Native (Expo) + react-native-executorch / llama.rn, with HealthKit / Health Connect integration.',
