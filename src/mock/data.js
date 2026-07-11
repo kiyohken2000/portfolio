@@ -5,7 +5,7 @@ export const headData = {
   title: 't.shirakura', // e.g: 'Name | Developer'
   lang: 'jp', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
-  url: 'https://parsonal-portfolio.web.app', // OGP用のサイトURL(末尾スラッシュなし)
+  url: 'https://shirakura.site', // OGP用のサイトURL(末尾スラッシュなし)
   ogImage: 'og-image.png', // static/ 直下に置いたOGP画像のファイル名
   twitterUsername: '@votepurchase',
 };
